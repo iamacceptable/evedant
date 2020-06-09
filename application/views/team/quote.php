@@ -14,7 +14,7 @@
 							</div>
 							<div class="column-1_2 sc_column_item sc_column_item_2 even res_width_100per_imp">
 								<figure class="sc_image sc_image_shape_square">
-									<img src="<?= $banner->teamBannerPicture;?>" alt="" />
+									<img src="<?= base_url()."assets/images/uploads/banner/".$banner->teamBannerPicture;?>" alt="" />
 								</figure>
 							</div>
 						</div>

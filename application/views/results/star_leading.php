@@ -7,7 +7,7 @@
 					
 					<div class="column-1_2 sc_column_item sc_column_item_1 odd res_width_100per_imp">
 						<figure class="sc_image sc_image_shape_square">
-							<img src="<?= $star->teamBannerPicture; ?>" alt="" />
+							<img src="<?= base_url()."assets/images/uploads/banner/".$star->teamBannerPicture; ?>" alt="" />
 						</figure>
 					</div>
 					<div class="column-1_2 sc_column_item sc_column_item_2 even first res_width_100per_imp">
