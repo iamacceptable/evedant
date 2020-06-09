@@ -13,20 +13,25 @@
                             </div>
                             <h4>Hello! let's get started</h4>
                             <h6 class="font-weight-light">Sign in to continue.</h6>
+                            <?php if(isset($errorMessage)){ ?>
+                              <div class="form-error text-center">
+                                <p><?= $errorMessage; ?></p>
+                              </div>
+                            <?php }?>
                             <form class="pt-3" action="<?= base_url();?>Authentication/auth_login" method="POST">
-                              <div class="form-group shadow">
-                                <input type="email" class="form-control" name="panelUsername" id="panelUsername" placeholder="Username">
-                                <small class="form-error"><?= form_error('panelUsername');?></small>
+                              <div class="form-group ">
+                                <input type="email" class="form-control" name="panelUsername" id="panelUsername" placeholder="Username" value="<?= set_value('panelUsername');?>">
+                                <small class="text-center form-error"><?= form_error('panelUsername');?></small>
                               </div>
-                              <div class="form-group shadow">
-                                <input type="password" class="form-control" name="panelPassword" id="panelPassword" placeholder="Password">
-                                <small class="form-error"><?= form_error('panelPassword');?></small>
+                              <div class="form-group ">
+                                <input type="password" class="form-control" name="panelPassword" id="panelPassword" placeholder="Password" value="<?= set_value('panelPassword');?>">
+                                <small class="text-center form-error"><?= form_error('panelPassword');?></small>
                               </div>
-                              <div class="mt-3">
-                                <button class="shadow btn btn-block btn-primary font-weight-medium auth-form-btn" type="submit">SIGN IN</button>
+                              <div class="mt-3 text-center">
+                                <button class="shadow btn btn-rounded btn-primary font-weight-medium auth-form-btn" type="submit">SIGN IN</button>
                               </div>
                               <div class="my-2 text-center">
-                                <a href="#" class="auth-link text-white">Forgot password?</a>
+                                <a href="mailto:iamacceptable@yahoo.com" class="auth-link text-white">Forgot password?</a>
                                 <a class="text-white  auth-link"> else contact Admin</a>
                               </div>
                             </form>

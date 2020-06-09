@@ -3,12 +3,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Evedant_Authentication extends CI_Model {
 	public function checkUsername($panelUserName){
-		//TODO check if the userName exists
+		$this->db
+			->select('teamMemberID')
+			->from('tbl_team')
+			->where('teamMemberEmail', $panelUserName);
+		$response = $this->db->get();
+		if($response->num_rows() >= 1)
+			return TRUE;
+		else
+			return FALSE;
 	}
 	public function doLogin($ceredentials){
-		//TODO check the ceredentials
-	}
-	public function forgotPassword($postValues){
-		//TODO sets the OTP to coressponding User with flag up
+		$this->db
+			->select('teamMemberID, teamMemberEmail, teamMemberType')
+			->from('tbl_team')
+			->where('teamMemberEmail', $ceredentials['username'])
+			->where('teamMemberPassword', $ceredentials['password']);
+		$response = $this->db->get();
+		if($response->num_rows() == 1)
+			$response = array(
+				'result' => $response->row(),
+				'error' => FALSE,
+				'errorMessage' => 'Wrong Credentials!!'
+			);
+		else{
+			$response = array(
+				'result' => '',
+				'error' => TRUE,
+				'errorMessage' => 'Wrong Credentials!!'
+			);
+		}
+		return $response;		
 	}
 }
