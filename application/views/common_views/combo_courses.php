@@ -9,7 +9,7 @@
         <div class="post_info"><span class="post_info_item post_info_posted">
 			<a class="post_info_date"><?= "Starting From: ".$Batch_Date; ?></a></span>
 			<span class="post_info_item post_info_posted_by">by 
-				<a class="post_info_author"><?= $teacher." (".$designation.")"; ?></a>
+				<a class="post_info_author"><?= $teacher; ?></a>
 			</span>
 			<br>
 			<span class="post_info_item post_info_counters">

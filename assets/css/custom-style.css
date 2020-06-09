@@ -13,6 +13,27 @@ th {
     color:#fff;
 }
 
+.success-message{
+	border: 1px;
+	padding: 5px;
+	border-color:#1dbb90;
+	border-radius: 5px;
+	background-color: #1dbb90;
+	color: #fff;
+}
+
+.danger-message{
+	border: 1px;
+	padding: 5px;
+	border-color: red;
+	border-radius: 5px;
+	background-color: red;
+	color: #fff;	
+}
+
+/*.slick-slide .inner {
+  margin: 0 15px;
+}*/
 /* CSS-file with custom styles - don't delete this file! */
 .custom_rule { color: inherit; }
 
@@ -95,6 +116,12 @@ th {
 .social_linkedin{
 	background-image: url(../images/socials/linkedin.png);
 }
+
+.social_youtube{
+	background-image: url(../images/socials/youtube.png);
+}
+
+
 
 /* Testimonials */
 .sc_ts_bg1{

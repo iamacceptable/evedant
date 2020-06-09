@@ -4,7 +4,20 @@
 			<div class="sc_content content_wrap margin_top_3em_imp margin_bottom_3_5em_imp">
 				<div id="sc_contact_form" class="sc_contact_form sc_contact_form_standard aligncenter width_80per">
 					<h2 class="sc_contact_form_title">Contact Us Today</h2>
-					<p class="sc_contact_form_description">Your email address will not be published. Required fields are marked *</p>
+					<?php
+						if(isset($successMessage)){
+							if($successMessage == 'TRUE'){
+					?>
+							<p class="text_center success-message">You Query is recorded Successfully.</p>
+					<?php
+							}
+							else{
+					?>
+							<p class="text_center danger-message">Oops!! Something went wrong. Try again!!</p>
+					<?php
+							}
+						}
+					?>
 					<form method="post" action="<?=base_url();?>Contact_Us/sendMessage">
 						<div class="sc_contact_form_info">
 							<div class="sc_contact_form_item sc_contact_form_field label_over">

@@ -85,7 +85,7 @@ class Courses extends CI_Controller {
 		$this->load->helper('download');
 		$this->load->model('Evedant_Courses');
 		$response = $this->Evedant_Courses->fetchStudyMaterial($id);
-		$file = './assets/uploads/material/'.$response->doc;
+		$file = './assets/uploads/'.$response->doc;
 		if(file_exists( $file )){
 			$data = file_get_contents( $file );
 			force_download( $response->doc, $data);

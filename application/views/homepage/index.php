@@ -20,11 +20,7 @@
                 <div class="content">
                     <article class="post_item post_item_single page">
 						<section class="post_content">
-							<!-- Tags section -->
-							<?php
-								$this->view('homepage/homepage_tags');
-							?>
-							<!-- Tags section -->		
+							<!-- Stars section -->		
 							<?php
 								$this->view('homepage/show_stoppers')
 							?>	
@@ -33,6 +29,10 @@
 								$this->view('homepage/homepage_subjects')
 							?>
 							<!-- /Courses section -->
+							<!-- Tags section -->
+							<?php
+								$this->view('homepage/homepage_tags');
+							?>
 							<!-- Video Section -->
 							<?php
 								$this->view('homepage/homepage_story')	

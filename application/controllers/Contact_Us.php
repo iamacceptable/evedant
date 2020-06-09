@@ -7,6 +7,7 @@ class Contact_Us extends CI_Controller {
 		$dataLoad['navAncestor'] = 'More';
 		$dataLoad['navChild'] = 'Contact';
 		$dataLoad['header'] = 'Contact Us';
+		$dataLoad['successMessage'] = $this->session->flashdata('success');
 		$this->load->view('contact/index',$dataLoad);
 	}
 	public function sendMessage(){
@@ -30,6 +31,11 @@ class Contact_Us extends CI_Controller {
 			// echo '<pre>';
 			// print_r($response);
 			if($response){
+				$this->session->set_flashdata('success','TRUE');
+				redirect('Contact_Us', 'refresh');
+			}
+			else{
+				$this->session->set_flashdata('success','FALSE');
 				redirect('Contact_Us', 'refresh');
 			}
 		}

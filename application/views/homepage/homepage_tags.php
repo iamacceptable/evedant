@@ -1,3 +1,58 @@
+<!-- <div class="sc_section" data-animation="animated zoomIn normal">
+	<h1>Slick Marquee Test</h1>
+<div class="slick marquee">
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+      <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78"/>
+    </div>
+  </div>
+</div>
+</div> -->
 <div class="sc_section" data-animation="animated zoomIn normal">
 	<div class="sc_content content_wrap margin_top_3em_imp margin_bottom_3em_imp sc_features_st1">
 		<div class="columns_wrap sc_columns columns_fluid sc_columns_count_3">

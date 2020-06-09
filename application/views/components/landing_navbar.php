@@ -3,7 +3,7 @@
     <div class="menu_user_wrap">
         <div class="content_wrap clearfix">
             <div class="menu_user_area menu_user_left menu_user_contact_area">
-            	Contact us on +91 9811333406 &amp; +91 7678612504 or <a>hr@evedant.in</a>
+            	Contact us on +91 9811333406 &amp; +91 7678612504 or <a href="mailto: hr@evedant.in">hr@evedant.in</a>
             </div>
         </div>
     </div>

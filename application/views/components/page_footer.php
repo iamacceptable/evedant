@@ -18,22 +18,22 @@
         </div>
         <div class="sc_socials sc_socials_size_big">
             <div class="sc_socials_item">
-				<a href="#" target="_blank" class="social_icons social_facebook">
+				<a href="https://www.facebook.com/evedantiitjee" target="_blank" class="social_icons social_facebook">
 					<span class="sc_socials_hover social_facebook"></span>
 				</a>
-			</div>
+			</div><!-- 
             <div class="sc_socials_item">
-				<a href="#" target="_blank" class="social_icons social_pinterest">
+				<a href="" target="_blank" class="social_icons social_pinterest">
 					<span class="sc_socials_hover social_pinterest"></span>
 				</a>
-			</div>
+			</div> -->
             <div class="sc_socials_item">
-				<a href="#" target="_blank" class="social_icons social_twitter">
+				<a href="https://www.twitter.com/Evedant_JEE?s=09" target="_blank" class="social_icons social_twitter">
 					<span class="sc_socials_hover social_twitter"></span>
 				</a>
 			</div>
             <div class="sc_socials_item">
-				<a href="#" target="_blank" class="social_icons social_gplus">
+				<a href="mailto:hr@evedant.in" target="_blank" class="social_icons social_gplus">
 					<span class="sc_socials_hover social_gplus"></span>
 				</a>
 			</div>
@@ -43,8 +43,8 @@
 				</a>
 			</div>
             <div class="sc_socials_item">
-				<a href="#" target="_blank" class="social_icons social_dribbble">
-					<span class="sc_socials_hover social_dribbble"></span>
+				<a href="https://www.youtube.com/channel/UCdpyleoCMrHqdLKwJCsF2fq" target="_blank" class="social_icons social_youtube">
+					<span class="sc_socials_hover social_youtube"></span>
 				</a>
 			</div>
         </div>

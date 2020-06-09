@@ -34,7 +34,7 @@
 					</h4>
                     <div class="post_descr">
                         <p>
-							<a><?= $header == 'Courses' ? $courseShortDescription : $homepageSubjectAbout?></a>
+							<a><?= $header == 'Courses' ? str_replace("\n", "<br>", $courseShortDescription) : str_replace("\n", "<br>", $homepageSubjectAbout)?></a>
 						</p>
                         <div class="post_buttons">
                             <div class="post_button">

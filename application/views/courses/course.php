@@ -24,7 +24,7 @@
         <section class="post_content">
 			<!-- Course info section -->								
 			<h2 class="margin_top_1em">About the Course</h2>
-			<p><?= $courseLongDescription; ?></p>
+			<p><?= str_replace("\n", "<br>", $courseLongDescription); ?></p>
 			<form action="<?= base_url();?>Courses/download_course_content" method="POST">	
 				<input type="hidden" name="courseName" value="<?= $courseContent;?>">
 				<button type="submit" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small margin_top_2em">Download Course Content</button>

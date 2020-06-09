@@ -16,7 +16,7 @@
 						<div class="post_descr">
 							<p>
 								<a><?= $starClass;?></a><br>
-								<a><?= $starMarks; ?></a>
+								<a><?= str_replace("\n", "<br>", $starMarks); ?></a>
 							</p>
 						</div>
 					</div>
