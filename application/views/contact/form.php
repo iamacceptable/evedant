@@ -8,12 +8,12 @@
 						if(isset($successMessage)){
 							if($successMessage == 'TRUE'){
 					?>
-							<p class="text_center success-message">You Query is recorded Successfully.</p>
+							<div class="sc_infobox sc_infobox_style_success sc_infobox_closeable sc_infobox_iconed icon-check-2"><b>Success!</b> Your Query is recorded successfully.</div>
 					<?php
 							}
 							else{
 					?>
-							<p class="text_center danger-message">Oops!! Something went wrong. Try again!!</p>
+							<div class="sc_infobox sc_infobox_style_error sc_infobox_closeable sc_infobox_iconed icon-alert-2"><b>Failed!</b> Oops, something went wrong.</div>
 					<?php
 							}
 						}

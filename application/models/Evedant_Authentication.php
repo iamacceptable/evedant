@@ -24,7 +24,7 @@ class Evedant_Authentication extends CI_Model {
 			$response = array(
 				'result' => $response->row(),
 				'error' => FALSE,
-				'errorMessage' => 'Wrong Credentials!!'
+				'errorMessage' => 'Auth Successfull!!'
 			);
 		else{
 			$response = array(

@@ -30,4 +30,13 @@ class Evedant_Team extends CI_Model {
 		$response = $this->db->get();
 		return $response->row();
 	}
+	public function fetchTeamUserProfile($userID){
+		$this->db
+			->select('teamMemberName as name, teamMemberDesignation as designation, teamMemberQualification as qualification, teamMemberDisplayPicture as display_picture, teamMemberEmail as email, teamMemberPhone as phone')
+			->from('tbl_team')
+			->where('teamMemberID', $userID)
+			->where('deleteStatus','0');
+		$response = $this->db->get();
+		return $response->row();	
+	}
 }

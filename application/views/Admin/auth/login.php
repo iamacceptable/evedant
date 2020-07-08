@@ -14,10 +14,11 @@
                             <h4>Hello! let's get started</h4>
                             <h6 class="font-weight-light">Sign in to continue.</h6>
                             <?php if(isset($errorMessage)){ ?>
-                              <div class="form-error text-center">
-                                <p><?= $errorMessage; ?></p>
+                              <div class="alert alert-danger" role="alert">
+                                <?= $errorMessage;?>
                               </div>
                             <?php }?>
+
                             <form class="pt-3" action="<?= base_url();?>Authentication/auth_login" method="POST">
                               <div class="form-group ">
                                 <input type="email" class="form-control" name="panelUsername" id="panelUsername" placeholder="Username" value="<?= set_value('panelUsername');?>">

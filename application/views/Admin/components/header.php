@@ -14,5 +14,6 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="<?= base_url();?>assets/admin/css/style.css">
   <!-- endinject -->
-  <link rel="favicon" href="<?= base_url();?>assets/admin/images/favicon.png" />
+  <link rel="shortcut icon" href="<?= base_url();?>assets/images/favicon.png" />
 </head>
+<body>
