@@ -33,7 +33,7 @@ class Registration extends CI_Controller {
 			$response = $this->Evedant_ContactUs->registerStudent($dataPost);
 			if($response){
 				$this->session->set_flashdata('success','TRUE');
-				sendAuthMail($dataPost);
+				$this->sendAuthMail($dataPost);
 				redirect('Registration', 'refresh');
 			}
 			else{
