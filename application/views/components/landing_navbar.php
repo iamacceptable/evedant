@@ -3,7 +3,7 @@
     <div class="menu_user_wrap">
         <div class="content_wrap clearfix">
             <div class="menu_user_area menu_user_left menu_user_contact_area">
-            	Contact us on +91 9811333406 &amp; +91 7678612504 or <a href="mailto: hr@evedant.in">hr@evedant.in</a>
+            	Contact us on <a href="tel:+91 9811333406">+91 9811333406</a> &amp; <a href="tel:+91 7678612504">+91 7678612504 or <a href="mailto: hr@evedant.in">hr@evedant.in</a>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
 							<!-- <li class="menu-item <?php if($navChild == 'Testimonials'){ echo 'current-menu-item';}?>"><a href="#">Our Testimonials</a></li> -->
 							<li class="menu-item <?php if($navChild == 'About'){ echo 'current-menu-item';}?>"><a href="<?= base_url();?>About_Us">About Evedant</a></li>
 							<li class="menu-item <?php if($navChild == 'Contact'){ echo 'current-menu-item';}?>"><a href="<?= base_url();?>Contact_Us">Contact Us</a></li>
-							
+							<li class="menu-item <?php if($navChild == 'Registration'){ echo 'current-menu-item';}?>"><a href="<?= base_url();?>Registration">Registration</a></li>
 						</ul>
 					</li>
 				</ul>

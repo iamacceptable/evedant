@@ -20,6 +20,9 @@
                 <div class="content">
                     <article class="post_item post_item_single page">
 						<section class="post_content">
+							<?php
+								$this->view('homepage/sub/info');
+							?>
 							<!-- Stars section -->		
 							<?php
 								$this->view('homepage/show_stoppers')

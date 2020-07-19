@@ -13,6 +13,25 @@ th {
     color:#fff;
 }
 
+.slidy-op {
+	margin-top: 10px;
+	display: flex;
+	vertical-align: middle;
+}
+
+.slidy-op  li{
+	padding: 10px;
+	font-weight: bolder;
+	color: #1dbb90;
+}
+
+.slidy-op li:before {
+	content: '\e825';
+	font-size: 2.0rem !important;
+	margin-right: 5px;
+	color: red; 
+}
+
 .success-message{
 	border: 1px;
 	padding: 5px;
@@ -34,7 +53,6 @@ th {
 /*.slick-slide .inner {
   margin: 0 15px;
 }*/
-/* CSS-file with custom styles - don't delete this file! */
 .custom_rule { color: inherit; }
 
 /* Page title */
@@ -54,7 +72,7 @@ th {
 }
 
 .form-error{
-	color: #db2f2f;
+	color: #db2f2f !important;
 }
 
 .sc_bg2{

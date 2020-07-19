@@ -2742,10 +2742,12 @@ blockquote cite {
 .comments_wrap .comments_field label {
 	display:none;
 }
-.comments_wrap .comments_field input,
+.comments_wrap .comments_field input ,
 .comments_wrap .comments_field textarea {
 	width:100%;
 	padding:0.75em 1em;
+	border: 1px solid #1dbb90;
+	background-color: #fff;
 }
 
 /* Submit button */

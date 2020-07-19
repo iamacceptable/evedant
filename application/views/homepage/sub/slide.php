@@ -11,6 +11,6 @@
 		<span class="font-w_400"><?= $carouselTagline; ?></span>
     </div>
     <div class="tp-caption slide_button customin stl tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:-20;transformOrigin:50% 0%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1">
-		<a href="<?= base_url();?>Courses" class="slide_button_white">Explore Evedant</a>
+		<a href="<?= base_url();?>Registration" class="slide_button_white">Register Now</a>
     </div>
 </li>

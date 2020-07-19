@@ -3,6 +3,15 @@
     <div class="custom_html_section"></div>
 		
 	<script type="text/javascript" src="<?= base_url();?>assets/js/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="<?= base_url();?>assets/js/infiniteslidev2.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.slidy-op').infiniteslide({
+                  'speed': 50
+            });
+        });
+    </script>
     <script type="text/javascript" src="<?= base_url();?>assets/js/jquery/jquery-migrate.min.js"></script>	
 	<script type="text/javascript" src="<?= base_url();?>assets/js/jquery/ui/core.min.js"></script>
     <script type="text/javascript" src="<?= base_url();?>assets/js/jquery/ui/widget.min.js"></script>
@@ -36,7 +45,7 @@
     <script type="text/javascript" src="<?= base_url();?>assets/js/swiper/idangerous.swiper-2.7.min.js"></script>
     <script type="text/javascript" src="<?= base_url();?>assets/js/swiper/idangerous.swiper.scrollbar-2.4.min.js"></script>
     <script type="text/javascript" src="<?= base_url();?>assets/js/diagram/chart.min.js"></script>
-
+    
 </body>
 
 </html>
