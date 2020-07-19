@@ -2,10 +2,10 @@
 
 $config = array(
     'protocol' => 'smtp', // 'mail', 'sendmail', or 'smtp'
-    'smtp_host' => 'smtp.evedant.in', 
+    'smtp_host' => 'ssl://evedant.in', 
     'smtp_port' => 465,
-    'smtp_user' => 'no-reply@evedant.in',
-    'smtp_pass' => '12345!',
+    'smtp_user' => 'evedant.in',
+    'smtp_pass' => '',
     'smtp_crypto' => 'ssl', //can be 'ssl' or 'tls' for example
     'mailtype' => 'text', //plaintext 'text' mails or 'html'
     'smtp_timeout' => '4', //in seconds
